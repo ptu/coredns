@@ -6,10 +6,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/proxy"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"github.com/ptu/coredns/plugin/etcd/msg"
+	"github.com/ptu/coredns/plugin/proxy"
+	"github.com/ptu/coredns/plugin/test"
+	"github.com/ptu/coredns/request"
 
 	"github.com/miekg/dns"
 )

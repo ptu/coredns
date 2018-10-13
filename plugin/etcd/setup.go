@@ -4,12 +4,12 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	mwtls "github.com/coredns/coredns/plugin/pkg/tls"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/plugin/proxy"
+	"github.com/ptu/coredns/core/dnsserver"
+	"github.com/ptu/coredns/plugin"
+	clog "github.com/ptu/coredns/plugin/pkg/log"
+	mwtls "github.com/ptu/coredns/plugin/pkg/tls"
+	"github.com/ptu/coredns/plugin/pkg/upstream"
+	"github.com/ptu/coredns/plugin/proxy"
 
 	etcdcv3 "github.com/coreos/etcd/clientv3"
 	"github.com/mholt/caddy"

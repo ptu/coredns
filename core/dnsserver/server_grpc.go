@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/coredns/coredns/pb"
-	"github.com/coredns/coredns/plugin/pkg/transport"
-	"github.com/coredns/coredns/plugin/pkg/watch"
+	"github.com/ptu/coredns/pb"
+	"github.com/ptu/coredns/plugin/pkg/transport"
+	"github.com/ptu/coredns/plugin/pkg/watch"
 
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
 	"github.com/miekg/dns"

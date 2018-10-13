@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/coredns/coredns/plugin/pkg/transport"
+	"github.com/ptu/coredns/plugin/pkg/transport"
 
 	"github.com/miekg/dns"
 )

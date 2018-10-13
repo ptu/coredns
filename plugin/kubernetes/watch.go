@@ -1,8 +1,8 @@
 package kubernetes
 
 import (
-	"github.com/coredns/coredns/plugin/kubernetes/object"
-	"github.com/coredns/coredns/plugin/pkg/watch"
+	"github.com/ptu/coredns/plugin/kubernetes/object"
+	"github.com/ptu/coredns/plugin/pkg/watch"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

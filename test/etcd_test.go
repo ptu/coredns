@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/etcd"
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/proxy"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"github.com/ptu/coredns/plugin/etcd"
+	"github.com/ptu/coredns/plugin/etcd/msg"
+	"github.com/ptu/coredns/plugin/proxy"
+	"github.com/ptu/coredns/plugin/test"
+	"github.com/ptu/coredns/request"
 
 	etcdcv3 "github.com/coreos/etcd/clientv3"
 	"github.com/miekg/dns"

@@ -1,7 +1,7 @@
 package file
 
 import (
-	"github.com/coredns/coredns/plugin/file/tree"
+	"github.com/ptu/coredns/plugin/file/tree"
 
 	"github.com/miekg/dns"
 )

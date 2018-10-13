@@ -3,9 +3,9 @@ package kubernetes
 import (
 	"errors"
 
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/request"
+	"github.com/ptu/coredns/plugin/etcd/msg"
+	"github.com/ptu/coredns/plugin/pkg/dnsutil"
+	"github.com/ptu/coredns/request"
 )
 
 // The federation node.Labels keys used.

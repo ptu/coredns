@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/hex"
 
-	"github.com/coredns/coredns/plugin"
+	"github.com/ptu/coredns/plugin"
 
 	"github.com/miekg/dns"
 )

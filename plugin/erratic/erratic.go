@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coredns/coredns/request"
+	"github.com/ptu/coredns/request"
 
 	"github.com/miekg/dns"
 )

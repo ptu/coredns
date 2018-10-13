@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/healthcheck"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/pkg/tls"
+	"github.com/ptu/coredns/plugin"
+	"github.com/ptu/coredns/plugin/pkg/healthcheck"
+	"github.com/ptu/coredns/plugin/pkg/parse"
+	"github.com/ptu/coredns/plugin/pkg/tls"
 	"github.com/mholt/caddy/caddyfile"
 	"github.com/miekg/dns"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/dnstap/taprw"
+	"github.com/ptu/coredns/plugin"
+	"github.com/ptu/coredns/plugin/dnstap/taprw"
 
 	tap "github.com/dnstap/golang-dnstap"
 	"github.com/miekg/dns"

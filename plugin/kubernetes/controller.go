@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coredns/coredns/plugin/kubernetes/object"
-	dnswatch "github.com/coredns/coredns/plugin/pkg/watch"
+	"github.com/ptu/coredns/plugin/kubernetes/object"
+	dnswatch "github.com/ptu/coredns/plugin/pkg/watch"
 
 	api "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"

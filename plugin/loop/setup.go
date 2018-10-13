@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
+	"github.com/ptu/coredns/core/dnsserver"
+	"github.com/ptu/coredns/plugin"
+	"github.com/ptu/coredns/plugin/pkg/dnsutil"
 
 	"github.com/mholt/caddy"
 )

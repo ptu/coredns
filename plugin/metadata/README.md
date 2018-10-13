@@ -7,7 +7,7 @@
 ## Description
 
 By enabling *metadata* any plugin that implements [metadata.Provider
-interface](https://godoc.org/github.com/coredns/coredns/plugin/metadata#Provider) will be called for
+interface](https://godoc.org/github.com/ptu/coredns/plugin/metadata#Provider) will be called for
 each DNS query, at beginning of the process for that query, in order to add it's own meta data to
 context.
 
@@ -45,5 +45,5 @@ The *rewrite* plugin uses meta data to rewrite requests.
 
 ## Also See
 
-The [Provider interface](https://godoc.org/github.com/coredns/coredns/plugin/metadata#Provider) and
-the [package level](https://godoc.org/github.com/coredns/coredns/plugin/metadata) documentation.
+The [Provider interface](https://godoc.org/github.com/ptu/coredns/plugin/metadata#Provider) and
+the [package level](https://godoc.org/github.com/ptu/coredns/plugin/metadata) documentation.

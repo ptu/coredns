@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/dnstap/test"
-	mwtest "github.com/coredns/coredns/plugin/test"
+	"github.com/ptu/coredns/plugin"
+	"github.com/ptu/coredns/plugin/dnstap/test"
+	mwtest "github.com/ptu/coredns/plugin/test"
 	tap "github.com/dnstap/golang-dnstap"
 	"github.com/miekg/dns"
 )

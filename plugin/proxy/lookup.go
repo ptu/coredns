@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/healthcheck"
-	"github.com/coredns/coredns/request"
+	"github.com/ptu/coredns/plugin/pkg/healthcheck"
+	"github.com/ptu/coredns/request"
 
 	"github.com/miekg/dns"
 )

@@ -4,10 +4,10 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/pkg/transport"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"github.com/ptu/coredns/plugin/pkg/dnstest"
+	"github.com/ptu/coredns/plugin/pkg/transport"
+	"github.com/ptu/coredns/plugin/test"
+	"github.com/ptu/coredns/request"
 
 	"github.com/miekg/dns"
 )

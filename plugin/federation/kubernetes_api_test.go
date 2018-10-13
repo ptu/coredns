@@ -1,9 +1,9 @@
 package federation
 
 import (
-	"github.com/coredns/coredns/plugin/kubernetes"
-	"github.com/coredns/coredns/plugin/kubernetes/object"
-	"github.com/coredns/coredns/plugin/pkg/watch"
+	"github.com/ptu/coredns/plugin/kubernetes"
+	"github.com/ptu/coredns/plugin/kubernetes/object"
+	"github.com/ptu/coredns/plugin/pkg/watch"
 
 	api "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"

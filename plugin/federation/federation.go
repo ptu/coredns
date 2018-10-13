@@ -16,11 +16,11 @@ package federation
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/plugin/pkg/nonwriter"
-	"github.com/coredns/coredns/request"
+	"github.com/ptu/coredns/plugin"
+	"github.com/ptu/coredns/plugin/etcd/msg"
+	"github.com/ptu/coredns/plugin/pkg/dnsutil"
+	"github.com/ptu/coredns/plugin/pkg/nonwriter"
+	"github.com/ptu/coredns/request"
 
 	"github.com/miekg/dns"
 )

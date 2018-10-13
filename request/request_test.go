@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/test"
+	"github.com/ptu/coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

@@ -6,7 +6,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/coredns/coredns/plugin/pkg/healthcheck"
+	"github.com/ptu/coredns/plugin/pkg/healthcheck"
 )
 
 type proxyHandler struct {

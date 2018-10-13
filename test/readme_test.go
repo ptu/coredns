@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/coredns/coredns/core/dnsserver"
+	"github.com/ptu/coredns/core/dnsserver"
 
 	"github.com/mholt/caddy"
 )

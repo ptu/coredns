@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics"
-	"github.com/coredns/coredns/plugin/pkg/cache"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
+	"github.com/ptu/coredns/core/dnsserver"
+	"github.com/ptu/coredns/plugin"
+	"github.com/ptu/coredns/plugin/metrics"
+	"github.com/ptu/coredns/plugin/pkg/cache"
+	clog "github.com/ptu/coredns/plugin/pkg/log"
 
 	"github.com/mholt/caddy"
 )

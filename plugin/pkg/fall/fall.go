@@ -2,7 +2,7 @@
 package fall
 
 import (
-	"github.com/coredns/coredns/plugin"
+	"github.com/ptu/coredns/plugin"
 )
 
 // F can be nil to allow for no fallthrough, empty allow all zones to fallthrough or

@@ -14,7 +14,7 @@ package deprecated
 import (
 	"errors"
 
-	"github.com/coredns/coredns/plugin"
+	"github.com/ptu/coredns/plugin"
 
 	"github.com/mholt/caddy"
 )

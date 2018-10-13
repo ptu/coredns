@@ -3,8 +3,8 @@ package plugin
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/request"
+	"github.com/ptu/coredns/plugin/etcd/msg"
+	"github.com/ptu/coredns/request"
 
 	"github.com/miekg/dns"
 )
