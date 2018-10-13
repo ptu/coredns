@@ -4,8 +4,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ptu/coredns/plugin"
-	clog "github.com/ptu/coredns/plugin/pkg/log"
+	"github.com/coredns/coredns/plugin"
+	clog "github.com/coredns/coredns/plugin/pkg/log"
 
 	"github.com/mholt/caddy"
 )

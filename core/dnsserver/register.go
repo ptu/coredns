@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ptu/coredns/plugin"
-	"github.com/ptu/coredns/plugin/pkg/dnsutil"
-	"github.com/ptu/coredns/plugin/pkg/parse"
-	"github.com/ptu/coredns/plugin/pkg/transport"
+	"github.com/coredns/coredns/plugin"
+	"github.com/coredns/coredns/plugin/pkg/dnsutil"
+	"github.com/coredns/coredns/plugin/pkg/parse"
+	"github.com/coredns/coredns/plugin/pkg/transport"
 
 	"github.com/mholt/caddy"
 	"github.com/mholt/caddy/caddyfile"

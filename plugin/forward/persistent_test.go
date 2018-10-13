@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ptu/coredns/plugin/pkg/dnstest"
+	"github.com/coredns/coredns/plugin/pkg/dnstest"
 
 	"github.com/miekg/dns"
 )

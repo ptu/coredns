@@ -3,7 +3,7 @@
 package cache
 
 import (
-	"github.com/ptu/coredns/plugin/pkg/fuzz"
+	"github.com/coredns/coredns/plugin/pkg/fuzz"
 )
 
 // Fuzz fuzzes cache.

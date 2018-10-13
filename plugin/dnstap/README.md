@@ -68,8 +68,8 @@ $ dnstap -l 127.0.0.1:6000
 
 ~~~ Go
 import (
-    "github.com/ptu/coredns/plugin/dnstap"
-    "github.com/ptu/coredns/plugin/dnstap/msg"
+    "github.com/coredns/coredns/plugin/dnstap"
+    "github.com/coredns/coredns/plugin/dnstap/msg"
 )
 
 func (h Dnstap) ServeDNS(ctx context.Context, w dns.ResponseWriter, r *dns.Msg) (int, error) {

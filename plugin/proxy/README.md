@@ -55,7 +55,7 @@ proxy FROM TO... {
   a failsafe.)
 * `protocol` specifies what protocol to use to speak to an upstream, `dns` (the default) is plain
   old DNS. The `grpc` option will talk to a server that has implemented
-  the [DnsService](https://github.com/ptu/coredns/blob/master/pb/dns.proto).
+  the [DnsService](https://github.com/coredns/coredns/blob/master/pb/dns.proto).
 
 ## Policies
 

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ptu/coredns/plugin/pkg/log"
+	"github.com/coredns/coredns/plugin/pkg/log"
 
 	"github.com/miekg/dns"
 )

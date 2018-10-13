@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/ptu/coredns/core/dnsserver"
+	"github.com/coredns/coredns/core/dnsserver"
 
 	"github.com/mholt/caddy"
 	"github.com/prometheus/client_golang/prometheus"

@@ -3,8 +3,8 @@ package taprw
 import (
 	"testing"
 
-	"github.com/ptu/coredns/plugin/dnstap/test"
-	mwtest "github.com/ptu/coredns/plugin/test"
+	"github.com/coredns/coredns/plugin/dnstap/test"
+	mwtest "github.com/coredns/coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

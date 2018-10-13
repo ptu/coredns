@@ -3,7 +3,7 @@ package dnsutil
 import (
 	"time"
 
-	"github.com/ptu/coredns/plugin/pkg/response"
+	"github.com/coredns/coredns/plugin/pkg/response"
 
 	"github.com/miekg/dns"
 )

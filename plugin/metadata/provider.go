@@ -34,7 +34,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/ptu/coredns/request"
+	"github.com/coredns/coredns/request"
 )
 
 // Provider interface needs to be implemented by each plugin willing to provide

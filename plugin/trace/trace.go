@@ -8,13 +8,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ptu/coredns/plugin"
-	"github.com/ptu/coredns/plugin/metrics"
-	"github.com/ptu/coredns/plugin/pkg/dnstest"
-	"github.com/ptu/coredns/plugin/pkg/rcode"
+	"github.com/coredns/coredns/plugin"
+	"github.com/coredns/coredns/plugin/metrics"
+	"github.com/coredns/coredns/plugin/pkg/dnstest"
+	"github.com/coredns/coredns/plugin/pkg/rcode"
 	// Plugin the trace package.
-	_ "github.com/ptu/coredns/plugin/pkg/trace"
-	"github.com/ptu/coredns/request"
+	_ "github.com/coredns/coredns/plugin/pkg/trace"
+	"github.com/coredns/coredns/request"
 
 	ddtrace "github.com/DataDog/dd-trace-go/opentracing"
 	"github.com/miekg/dns"

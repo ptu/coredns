@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ptu/coredns/core/dnsserver"
+	"github.com/coredns/coredns/core/dnsserver"
 
 	"github.com/mholt/caddy"
 )

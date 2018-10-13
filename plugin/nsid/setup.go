@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ptu/coredns/core/dnsserver"
-	"github.com/ptu/coredns/plugin"
+	"github.com/coredns/coredns/core/dnsserver"
+	"github.com/coredns/coredns/plugin"
 
 	"github.com/mholt/caddy"
 )

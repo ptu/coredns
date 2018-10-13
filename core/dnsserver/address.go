@@ -5,9 +5,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ptu/coredns/plugin"
-	"github.com/ptu/coredns/plugin/pkg/parse"
-	"github.com/ptu/coredns/plugin/pkg/transport"
+	"github.com/coredns/coredns/plugin"
+	"github.com/coredns/coredns/plugin/pkg/parse"
+	"github.com/coredns/coredns/plugin/pkg/transport"
 
 	"github.com/miekg/dns"
 )

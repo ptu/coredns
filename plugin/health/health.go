@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	clog "github.com/ptu/coredns/plugin/pkg/log"
+	clog "github.com/coredns/coredns/plugin/pkg/log"
 )
 
 var log = clog.NewWithPlugin("health")

@@ -10,10 +10,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ptu/coredns/plugin"
-	"github.com/ptu/coredns/plugin/debug"
-	clog "github.com/ptu/coredns/plugin/pkg/log"
-	"github.com/ptu/coredns/request"
+	"github.com/coredns/coredns/plugin"
+	"github.com/coredns/coredns/plugin/debug"
+	clog "github.com/coredns/coredns/plugin/pkg/log"
+	"github.com/coredns/coredns/request"
 
 	"github.com/miekg/dns"
 	ot "github.com/opentracing/opentracing-go"

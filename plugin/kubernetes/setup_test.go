@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ptu/coredns/plugin/pkg/fall"
+	"github.com/coredns/coredns/plugin/pkg/fall"
 
-	"github.com/ptu/coredns/plugin/proxy"
+	"github.com/coredns/coredns/plugin/proxy"
 	"github.com/mholt/caddy"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

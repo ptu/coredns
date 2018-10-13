@@ -7,7 +7,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/ptu/coredns/request"
+	"github.com/coredns/coredns/request"
 
 	"github.com/miekg/dns"
 )

@@ -1,7 +1,7 @@
 package trace
 
 import (
-	"github.com/ptu/coredns/plugin"
+	"github.com/coredns/coredns/plugin"
 	ot "github.com/opentracing/opentracing-go"
 )
 

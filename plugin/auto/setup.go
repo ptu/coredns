@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ptu/coredns/core/dnsserver"
-	"github.com/ptu/coredns/plugin"
-	"github.com/ptu/coredns/plugin/metrics"
-	clog "github.com/ptu/coredns/plugin/pkg/log"
-	"github.com/ptu/coredns/plugin/pkg/parse"
-	"github.com/ptu/coredns/plugin/pkg/upstream"
+	"github.com/coredns/coredns/core/dnsserver"
+	"github.com/coredns/coredns/plugin"
+	"github.com/coredns/coredns/plugin/metrics"
+	clog "github.com/coredns/coredns/plugin/pkg/log"
+	"github.com/coredns/coredns/plugin/pkg/parse"
+	"github.com/coredns/coredns/plugin/pkg/upstream"
 
 	"github.com/mholt/caddy"
 )

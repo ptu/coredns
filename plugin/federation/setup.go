@@ -3,9 +3,9 @@ package federation
 import (
 	"fmt"
 
-	"github.com/ptu/coredns/core/dnsserver"
-	"github.com/ptu/coredns/plugin"
-	"github.com/ptu/coredns/plugin/kubernetes"
+	"github.com/coredns/coredns/core/dnsserver"
+	"github.com/coredns/coredns/plugin"
+	"github.com/coredns/coredns/plugin/kubernetes"
 	"github.com/miekg/dns"
 
 	"github.com/mholt/caddy"

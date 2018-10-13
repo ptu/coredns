@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ptu/coredns/plugin/pkg/rcode"
-	"github.com/ptu/coredns/request"
+	"github.com/coredns/coredns/plugin/pkg/rcode"
+	"github.com/coredns/coredns/request"
 
 	"github.com/miekg/dns"
 )

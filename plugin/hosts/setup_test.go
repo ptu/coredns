@@ -3,7 +3,7 @@ package hosts
 import (
 	"testing"
 
-	"github.com/ptu/coredns/plugin/pkg/fall"
+	"github.com/coredns/coredns/plugin/pkg/fall"
 
 	"github.com/mholt/caddy"
 )

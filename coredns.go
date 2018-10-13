@@ -3,8 +3,10 @@ package main
 //go:generate go run directives_generate.go
 
 import (
-	_ "github.com/ptu/coredns/core/plugin"
-	"github.com/ptu/coredns/coremain" // Plug in CoreDNS
+	"github.com/coredns/coredns/coremain"
+
+	// Plug in CoreDNS
+	_ "github.com/coredns/coredns/core/plugin"
 )
 
 func main() {

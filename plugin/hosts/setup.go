@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ptu/coredns/core/dnsserver"
-	"github.com/ptu/coredns/plugin"
-	clog "github.com/ptu/coredns/plugin/pkg/log"
+	"github.com/coredns/coredns/core/dnsserver"
+	"github.com/coredns/coredns/plugin"
+	clog "github.com/coredns/coredns/plugin/pkg/log"
 
 	"github.com/mholt/caddy"
 )

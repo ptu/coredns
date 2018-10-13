@@ -13,7 +13,7 @@ all: coredns
 
 .PHONY: coredns
 coredns: $(CHECKS)
-	CGO_ENABLED=$(CGO_ENABLED) $(SYSTEM) go build $(BUILDOPTS) -ldflags="-s -w -X github.com/ptu/coredns/coremain.GitCommit=$(GITCOMMIT)" -o $(BINARY)
+	CGO_ENABLED=$(CGO_ENABLED) $(SYSTEM) go build $(BUILDOPTS) -ldflags="-s -w -X github.com/coredns/coredns/coremain.GitCommit=$(GITCOMMIT)" -o $(BINARY)
 
 .PHONY: check
 check: presubmit core/zplugin.go core/dnsserver/zdirectives.go godeps
@@ -22,7 +22,7 @@ check: presubmit core/zplugin.go core/dnsserver/zdirectives.go godeps
 godeps:
 	@ # Not vendoring these, so external plugins compile, avoiding:
 	@ # cannot use c (type *"github.com/mholt/caddy".Controller) as type
-	@ # *"github.com/ptu/coredns/vendor/github.com/mholt/caddy".Controller like errors.
+	@ # *"github.com/coredns/coredns/vendor/github.com/mholt/caddy".Controller like errors.
 	(cd $(GOPATH)/src/github.com/mholt/caddy 2>/dev/null              && git checkout -q master 2>/dev/null || true)
 	(cd $(GOPATH)/src/github.com/miekg/dns 2>/dev/null                && git checkout -q master 2>/dev/null || true)
 	(cd $(GOPATH)/src/github.com/prometheus/client_golang 2>/dev/null && git checkout -q master 2>/dev/null || true)

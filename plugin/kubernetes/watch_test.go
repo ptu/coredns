@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ptu/coredns/plugin/kubernetes/object"
+	"github.com/coredns/coredns/plugin/kubernetes/object"
 )
 
 func endpointSubsets(addrs ...string) (eps []object.EndpointSubset) {

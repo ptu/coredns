@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ptu/coredns/plugin/dnstap/msg"
+	"github.com/coredns/coredns/plugin/dnstap/msg"
 
 	tap "github.com/dnstap/golang-dnstap"
 	"github.com/miekg/dns"

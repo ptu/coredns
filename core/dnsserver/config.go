@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/ptu/coredns/plugin"
+	"github.com/coredns/coredns/plugin"
 
 	"github.com/mholt/caddy"
 )

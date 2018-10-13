@@ -1,10 +1,10 @@
 [![CoreDNS](https://coredns.io/images/CoreDNS_Colour_Horizontal.png)](https://coredns.io)
 
-[![Documentation](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/ptu/coredns)
+[![Documentation](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/coredns/coredns)
 [![Build Status](https://img.shields.io/travis/coredns/coredns/master.svg?label=build)](https://travis-ci.org/coredns/coredns)
 [![Code Coverage](https://img.shields.io/codecov/c/github/coredns/coredns/master.svg)](https://codecov.io/github/coredns/coredns?branch=master)
 [![Docker Pulls](https://img.shields.io/docker/pulls/coredns/coredns.svg)](https://hub.docker.com/r/coredns/coredns)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ptu/coredns)](https://goreportcard.com/report/coredns/coredns)
+[![Go Report Card](https://goreportcard.com/badge/github.com/coredns/coredns)](https://goreportcard.com/report/coredns/coredns)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1250/badge)](https://bestpractices.coreinfrastructure.org/projects/1250)
 
 
@@ -59,7 +59,7 @@ out-of-tree plugins.
 Check out the project and do dependency resolution with:
 
 ~~~
-% go get github.com/ptu/coredns
+% go get github.com/coredns/coredns
 ~~~
 
 Some of the dependencies require Go version 1.9 or later.
@@ -78,8 +78,8 @@ CoreDNS requires Go to compile. However, if you already have docker installed an
 a Go environment, you could build CoreDNS easily:
 
 ```
-$ docker run --rm -i -t -v $PWD:/go/src/github.com/ptu/coredns \
-      -w /go/src/github.com/ptu/coredns golang:1.11 make
+$ docker run --rm -i -t -v $PWD:/go/src/github.com/coredns/coredns \
+      -w /go/src/github.com/coredns/coredns golang:1.11 make
 ```
 
 The above command alone will have `coredns` binary generated.
@@ -188,7 +188,7 @@ When no transport protocol is specified the default `dns://` is assumed.
 
 We're most active on Github (and Slack):
 
-- Github: <https://github.com/ptu/coredns>
+- Github: <https://github.com/coredns/coredns>
 - Slack: #coredns on <https://slack.cncf.io>
 
 More resources can be found:

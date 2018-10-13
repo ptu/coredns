@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ptu/coredns/plugin/kubernetes/object"
-	"github.com/ptu/coredns/plugin/pkg/dnstest"
-	"github.com/ptu/coredns/plugin/pkg/watch"
-	"github.com/ptu/coredns/plugin/test"
+	"github.com/coredns/coredns/plugin/kubernetes/object"
+	"github.com/coredns/coredns/plugin/pkg/dnstest"
+	"github.com/coredns/coredns/plugin/pkg/watch"
+	"github.com/coredns/coredns/plugin/test"
 
 	"github.com/miekg/dns"
 	api "k8s.io/api/core/v1"

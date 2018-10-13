@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ptu/coredns/plugin/test"
+	"github.com/coredns/coredns/plugin/test"
 )
 
 // Make sure the external miekg/dns dependency is up to date

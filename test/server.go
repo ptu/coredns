@@ -3,10 +3,10 @@ package test
 import (
 	"sync"
 
-	"github.com/ptu/coredns/core/dnsserver"
+	"github.com/coredns/coredns/core/dnsserver"
 
 	// Hook in CoreDNS.
-	_ "github.com/ptu/coredns/core"
+	_ "github.com/coredns/coredns/core"
 
 	"github.com/mholt/caddy"
 )

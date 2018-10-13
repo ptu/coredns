@@ -1,7 +1,7 @@
 package dnsserver
 
 import (
-	"github.com/ptu/coredns/plugin/pkg/watch"
+	"github.com/coredns/coredns/plugin/pkg/watch"
 )
 
 func watchables(zones map[string]*Config) []watch.Watchable {

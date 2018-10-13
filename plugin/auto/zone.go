@@ -4,7 +4,7 @@ package auto
 import (
 	"sync"
 
-	"github.com/ptu/coredns/plugin/file"
+	"github.com/coredns/coredns/plugin/file"
 )
 
 // Zones maps zone names to a *Zone. This keep track of what we zones we have loaded at

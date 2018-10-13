@@ -7,7 +7,7 @@
 ## Description
 
 By enabling *health* any plugin that implements
-[healt.Healther interface](https://godoc.org/github.com/ptu/coredns/plugin/health#Healther)
+[healt.Healther interface](https://godoc.org/github.com/coredns/coredns/plugin/health#Healther)
 will be queried for it's health. The combined health is exported, by default, on port 8080/health .
 
 ## Syntax
